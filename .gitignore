@@ -1,0 +1,26 @@
+# Ignore Visual Studio/VS Code temp files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build outputs (applies to all subfolders)
+bin/
+obj/
+out/
+Debug/
+Release/
+
+# JetBrains Rider / IntelliJ
+.idea/
+
+# NuGet / packaging
+*.nupkg
+packages/
+project.lock.json
+
+# OS-specific
+.DS_Store
+Thumbs.db
